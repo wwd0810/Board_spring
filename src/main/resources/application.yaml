@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /board_api
+
+spring:
+  datasource:
+    url: jdbc:log4jdbc:mariadb://service.oig.kr:3306/md_board?useSSL=false&useUnicode=true&chartacterEncoding=utf8&serverTimezone=Asia/Seoul
+    username: md.joo
+    password: laonpp00
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    hikari:
+      pool-name: Hikari-CP
+      maximum-pool-size: 10
+      minimum-idle: 2
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop

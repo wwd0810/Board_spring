@@ -1,0 +1,8 @@
+[2m2020-05-14 18:12:55.361[0;39m [32m INFO[0;39m [35m73744[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-14 18:12:56.234[0;39m [32m INFO[0;39m [35m73744[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-14 18:12:56.437[0;39m [32m INFO[0;39m [35m73744[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-14 18:13:07.876[0;39m [32m INFO[0;39m [35m73744[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+

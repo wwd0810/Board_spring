@@ -1,0 +1,178 @@
+[2m2020-05-11 18:49:14.416[0;39m [32m INFO[0;39m [35m2166[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:08:29.150[0;39m [32m INFO[0;39m [35m4292[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:09:18.875[0;39m [32m INFO[0;39m [35m4477[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:10:40.038[0;39m [32m INFO[0;39m [35m4743[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:10:40.552[0;39m [32m INFO[0;39m [35m4743[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:10:40.720[0;39m [32m INFO[0;39m [35m4743[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:12:14.002[0;39m [32m INFO[0;39m [35m4743[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:12:18.638[0;39m [32m INFO[0;39m [35m4875[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:12:19.027[0;39m [32m INFO[0;39m [35m4875[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:12:19.257[0;39m [32m INFO[0;39m [35m4875[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:13:31.846[0;39m [32m INFO[0;39m [35m4875[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:13:37.374[0;39m [32m INFO[0;39m [35m5125[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:13:37.851[0;39m [32m INFO[0;39m [35m5125[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:13:38.011[0;39m [32m INFO[0;39m [35m5125[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:27:49.065[0;39m [32m INFO[0;39m [35m5125[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:27:54.965[0;39m [32m INFO[0;39m [35m6680[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:27:55.477[0;39m [32m INFO[0;39m [35m6680[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:27:55.635[0;39m [32m INFO[0;39m [35m6680[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:28:18.920[0;39m [32m INFO[0;39m [35m6680[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:28:38.248[0;39m [32m INFO[0;39m [35m6946[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:28:38.938[0;39m [32m INFO[0;39m [35m6946[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:28:39.113[0;39m [32m INFO[0;39m [35m6946[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:28:57.302[0;39m [32m INFO[0;39m [35m6946[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:29:05.301[0;39m [32m INFO[0;39m [35m7032[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:29:05.868[0;39m [32m INFO[0;39m [35m7032[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:29:06.028[0;39m [32m INFO[0;39m [35m7032[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 19:29:38.271[0;39m [32m INFO[0;39m [35m7032[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:29:43.348[0;39m [32m INFO[0;39m [35m7100[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 19:29:43.865[0;39m [32m INFO[0;39m [35m7100[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 19:29:44.024[0;39m [32m INFO[0;39m [35m7100[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 20:29:20.271[0;39m [32m INFO[0;39m [35m7100[0;39m [2m---[0;39m [2m[extShutdownHook][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:38:54.746[0;39m [32m INFO[0;39m [35m19532[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:38:55.219[0;39m [32m INFO[0;39m [35m19532[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:38:55.383[0;39m [32m INFO[0;39m [35m19532[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:38:55.827[0;39m [32m INFO[0;39m [35m19532[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:40:13.132[0;39m [32m INFO[0;39m [35m19878[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:40:13.599[0;39m [32m INFO[0;39m [35m19878[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:40:13.759[0;39m [32m INFO[0;39m [35m19878[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:40:14.186[0;39m [32m INFO[0;39m [35m19878[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:44:08.257[0;39m [32m INFO[0;39m [35m20571[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:44:08.750[0;39m [32m INFO[0;39m [35m20571[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:44:08.921[0;39m [32m INFO[0;39m [35m20571[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:44:09.353[0;39m [32m INFO[0;39m [35m20571[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:44:34.436[0;39m [32m INFO[0;39m [35m20618[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:44:34.894[0;39m [32m INFO[0;39m [35m20618[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:44:35.067[0;39m [32m INFO[0;39m [35m20618[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:44:35.499[0;39m [32m INFO[0;39m [35m20618[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:46:11.733[0;39m [32m INFO[0;39m [35m20982[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:46:12.211[0;39m [32m INFO[0;39m [35m20982[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:46:12.377[0;39m [32m INFO[0;39m [35m20982[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:46:12.804[0;39m [32m INFO[0;39m [35m20982[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:47:57.108[0;39m [32m INFO[0;39m [35m21279[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:47:57.562[0;39m [32m INFO[0;39m [35m21279[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:47:57.724[0;39m [32m INFO[0;39m [35m21279[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:47:58.192[0;39m [32m INFO[0;39m [35m21279[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:49:29.686[0;39m [32m INFO[0;39m [35m21489[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:49:30.162[0;39m [32m INFO[0;39m [35m21489[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:49:30.321[0;39m [32m INFO[0;39m [35m21489[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:49:30.746[0;39m [32m INFO[0;39m [35m21489[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:50:53.521[0;39m [32m INFO[0;39m [35m21665[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:50:54.026[0;39m [32m INFO[0;39m [35m21665[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:50:54.188[0;39m [32m INFO[0;39m [35m21665[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:50:54.625[0;39m [32m INFO[0;39m [35m21665[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:53:40.563[0;39m [32m INFO[0;39m [35m22326[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:53:41.021[0;39m [32m INFO[0;39m [35m22326[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:53:41.180[0;39m [32m INFO[0;39m [35m22326[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:53:41.601[0;39m [32m INFO[0;39m [35m22326[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:54:58.910[0;39m [32m INFO[0;39m [35m22467[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:54:59.271[0;39m [32m INFO[0;39m [35m22467[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:54:59.448[0;39m [32m INFO[0;39m [35m22467[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:54:59.850[0;39m [32m INFO[0;39m [35m22467[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:56:18.387[0;39m [32m INFO[0;39m [35m22617[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:56:18.886[0;39m [32m INFO[0;39m [35m22617[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:56:19.048[0;39m [32m INFO[0;39m [35m22617[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:56:19.466[0;39m [32m INFO[0;39m [35m22617[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:57:51.574[0;39m [32m INFO[0;39m [35m22776[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:57:52.031[0;39m [32m INFO[0;39m [35m22776[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:57:52.192[0;39m [32m INFO[0;39m [35m22776[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:57:52.598[0;39m [32m INFO[0;39m [35m22776[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:59:10.513[0;39m [32m INFO[0;39m [35m23181[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m select table_name from information_schema.TABLES where table_schema = database() and table_type = 'SEQUENCE'
+
+[2m2020-05-11 21:59:10.959[0;39m [32m INFO[0;39m [35m23181[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 21:59:11.143[0;39m [32m INFO[0;39m [35m23181[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime(6), title varchar(255), updated_at datetime(6), primary key (id)) engine=InnoDB
+
+[2m2020-05-11 21:59:11.564[0;39m [32m INFO[0;39m [35m23181[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 22:01:06.281[0;39m [32m INFO[0;39m [35m23400[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 22:01:06.457[0;39m [32m INFO[0;39m [35m23400[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime, title varchar(255), updated_at datetime, primary key (id)) engine=InnoDB
+
+[2m2020-05-11 22:01:06.872[0;39m [32m INFO[0;39m [35m23400[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 22:02:04.468[0;39m [32m INFO[0;39m [35m23559[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
+[2m2020-05-11 22:02:04.628[0;39m [32m INFO[0;39m [35m23559[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m create table tbl_board (id bigint not null auto_increment, contents varchar(255), created_at datetime, title varchar(255), updated_at datetime, primary key (id)) engine=InnoDB
+
+[2m2020-05-11 22:02:05.036[0;39m [32m INFO[0;39m [35m23559[0;39m [2m---[0;39m [2m[           main][0;39m [36mjdbc.sqlonly                            [0;39m [2m:[0;39m drop table if exists tbl_board
+
